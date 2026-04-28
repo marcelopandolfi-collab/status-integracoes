@@ -1,0 +1,105 @@
+{
+  "atualizado_em": "28 de Abril de 2026",
+  "fases": [
+    {
+      "id": "acesso",
+      "titulo": "Fase 1: Acesso",
+      "kpi_label": "Em Acesso",
+      "parceiros": [
+        {
+          "nome": "Banco Semear",
+          "status": "Em Dia",
+          "progresso": 80,
+          "descricao": "Fluxo de operação definido. Contrato (CT) da OT enviado para validação do jurídico do parceiro.",
+          "proximo_marco": "Conclusão das assinaturas contratuais."
+        },
+        {
+          "nome": "BS2",
+          "status": "Em Dia",
+          "progresso": 80,
+          "descricao": "Apresentação do fluxo de NC (Oferta Privada) realizada. Contrato (CT) da OT enviado para validação do jurídico do parceiro.",
+          "proximo_marco": "Aguardando aprovação interna do parceiro e retorno do jurídico sobre o CT da OT."
+        },
+        {
+          "nome": "XP Investimentos",
+          "status": "Em Dia",
+          "progresso": 50,
+          "descricao": "Apresentação do portal OT realizada com sucesso. Documentos (padrão B3) recebidos e arquivos de Eventos enviados.",
+          "proximo_marco": "Realização da demonstração da POC do sistema agendada para o dia 29/04."
+        },
+        {
+          "nome": "Banco BV",
+          "status": "Aguardando",
+          "progresso": 30,
+          "descricao": "Início das tratativas: apresentação da esteira de Oferta Privada aos times de Produtos e Operações.",
+          "proximo_marco": "Estamos aguardando a devolutiva do BV, referente a aprovação interna do processo."
+        },
+        {
+          "nome": "Banco Pine",
+          "status": "Aguardando",
+          "progresso": 20,
+          "descricao": "Aguardando trâmite de governança interna do parceiro.",
+          "proximo_marco": "Aprovação interna do produto pela diretoria/comitê do Pine."
+        }
+      ]
+    },
+    {
+      "id": "integracao",
+      "titulo": "Fase 2: Integração",
+      "kpi_label": "Em Integração",
+      "parceiros": [
+        {
+          "nome": "VORTX",
+          "status": "Em Dia",
+          "progresso": 30,
+          "descricao": "Reunião de alinhamento realizada hoje (27/04) para definição e retomada dos próximos passos da integração técnica.",
+          "proximo_marco": "Fechamento da conexão técnica (rede/VPN) e cadastro da empresa nos ambientes internos."
+        },
+        {
+          "nome": "Itaú",
+          "status": "Em Dia",
+          "progresso": 60,
+          "descricao": "Questionamentos do time de Segurança (SI) recebidos e prontamente respondidos pela nossa equipe.",
+          "proximo_marco": "Aguardando o envio do Contrato Assinado por parte do parceiro."
+        }
+      ]
+    },
+    {
+      "id": "homologacao",
+      "titulo": "Fase 3: Homologação",
+      "kpi_label": "Em HML",
+      "parceiros": [
+        {
+          "nome": "ID",
+          "status": "Em Dia",
+          "progresso": 50,
+          "descricao": "Conexões VPN finalizadas em HML e PRD. Primeira operação realizada na data de hoje.",
+          "proximo_marco": "Realização dos testes completos no ambiente de Homologação (HML)."
+        }
+      ]
+    },
+    {
+      "id": "producao",
+      "titulo": "Fase 4: Produção",
+      "kpi_label": "Em Produção",
+      "parceiros": [
+        {
+          "nome": "Banco Guanabara",
+          "status": "Em PRD",
+          "progresso": 100,
+          "descricao": "Todas as etapas de integração, testes e validações foram concluídas com sucesso.",
+          "label_marco": "Status Final",
+          "proximo_marco": "Parceiro totalmente liberado e operando em Produção."
+        },
+        {
+          "nome": "OT",
+          "status": "Em PRD",
+          "progresso": 100,
+          "descricao": "Todas as etapas de integração, testes e validações foram concluídas com sucesso.",
+          "label_marco": "Status Final",
+          "proximo_marco": "Parceiro totalmente liberado e operando em Produção."
+        }
+      ]
+    }
+  ]
+}
